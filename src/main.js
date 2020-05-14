@@ -1,3 +1,5 @@
+require('electron-reload')(__dirname);
+
 // Modules
 const {app, BrowserWindow, Menu, MenuItem} = require('electron')
 
@@ -18,12 +20,12 @@ function createWindow () {
     //change window size
     webPreferences: { nodeIntegration: true }
   })
-  
-  // Load index.html into the new BrowserWindow
-  mainWindow.loadFile('index.html')
-
-  // Open DevTools - Remove for PRODUCTION!
-  mainWindow.webContents.openDevTools() 
+  mainWindow.loadFile('src/index.html')
+ if(process.env.NODE_ENV === "development"){
+    mainWindow.webContents.openDevTools() 
+ }
+ 
+ 
 
   Menu.setApplicationMenu(mainMenu)
 

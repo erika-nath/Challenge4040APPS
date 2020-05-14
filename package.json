@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "electron src/main.js",
+    "start": "electron .",
+    "dev": "electron . --debug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
