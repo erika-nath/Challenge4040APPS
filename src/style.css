@@ -1,0 +1,48 @@
+body{
+    background-color: #223D47;
+    height: 100%;
+    font-family: 'Montserrat','sans-serif';
+
+  }
+.container{
+    background-color: #ffffff;
+    width: 80%;
+    height: 800px;
+     margin-left: 10%;
+     margin-top: 5%;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: #fbd104;
+    border-radius: 30px;
+    color: #223D47;
+   
+  }
+ nav{
+     color:#fbd104;
+     background-color: #ffffff;
+
+    
+
+ }
+ nav a{
+    margin-left: 50px;
+    background-color:#223D47 ;
+    color:#fbd104;
+    border-radius: 30px;
+   font-size: 20px; 
+   padding: 15px;
+ }
+  
+ hr{
+     height: 0.5px;
+     width: 90%;
+background-color: black;
+margin-top: 20px;
+margin-left: 0%;
+ 
+}
+img{
+    width: 8%;
+    height: 5%;
+}

@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <title>4040 APPs</title>
-    <style media="screen">
-      body {
-        background-color: #223D47;
-        height: 100%;
-      }
-    </style>
   </head>
-  <body>
-    <h1>Hello World!</h1>
+  <img src="./img/logo.jpg" >
+  <body class="containerBody">
+    <div class="container">Contenedor de proyectos aqui se va a renderizar
+    <header class="site-header">
+        <div class="header-content contenedor">
+            <nav class="pages-links">
+                <a href="index.html" class="boton" style="text-decoration:none">Proyectos</a>
+                <a href="tareas.html"  class="boton" style="text-decoration:none">Tareas</a>
+                <a href="usuarios.html"  class="boton" style="text-decoration:none">Usuarios</a>
+                <a href="reportes.html" class="boton" style="text-decoration:none">Reportes</a>
+            </nav>
+            <hr/>
+        </div>
+    </div>
+    </header>
+    
 
     <button type="button" name="task" id="taskButton">Im the Button</button>
     <!-- All of the Node.js APIs are available in this renderer process. -->
