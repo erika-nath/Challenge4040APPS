@@ -4,7 +4,7 @@
 
 [Deploy](link       )
 
-### Squad BatiCoders :female-tecgnologist: 
+### Squad BatiCoders :female-tecnologist: 
 
 - [Erika Pacheco](https://github.com/erika-nath) 
 - [Itza Carrillo](https://github.com/ItzaCarrillo)
@@ -29,7 +29,7 @@ La plataforma cuenta con una área para registrar proyectos y cada proyecto cuen
 
 ## Organización del equipo 
 - A partir de la entrega de los requerimientos del proyecto, comenzamos con los bocetos:
-
+[Prototipo de alta fidelidad(https://www.figma.com/proto/zkmU2I6ZnPXsQhOhj6Gipm/Reto-4040Apps?node-id=38%3A0&scaling=min-zoom)]
 
 
 
@@ -40,8 +40,6 @@ La plataforma cuenta con una área para registrar proyectos y cada proyecto cuen
 	
 
 
-### Proyecto Terminado
-![Imagen Principa ](./src/img/imagePagina.png)
 
  
 
