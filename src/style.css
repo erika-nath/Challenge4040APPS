@@ -21,28 +21,30 @@ nav a:hover{
  nav{
      color:#fbd104;
      background-color: #ffffff;
-
-    
-
  }
+
  nav a{
-    margin-left: 50px;
+    margin-left: 10px;
     background-color:#223D47 ;
     color:#fbd104;
     border-radius: 30px;
    font-size: 20px; 
    padding: 15px;
+
  }
   
  hr{
-     height: 0.5px;
+     height: 0.6px;
      width: 90%;
 background-color: black;
 margin-top: 20px;
 margin-left: 0%;
  
 }
+
 img{
     width: 8%;
     height: 5%;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }

@@ -6,33 +6,25 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <title>4040 APPs</title>
+    <img src="./img/logo.jpg" >
   </head>
-  <img src="./img/logo.jpg" >
   <body class="containerBody">
-    <div class="container">Contenedor de proyectos aqui se va a renderizar
-    <header class="site-header">
-        <div class="header-content contenedor">
+    <div class="container">
             <nav class="pages-links">
-                <a href="index.html" class="boton" style="text-decoration:none">Proyectos</a>
-                <a href="tareas.html"  class="boton" style="text-decoration:none">Tareas</a>
-                <a href="usuarios.html"  class="boton" style="text-decoration:none">Usuarios</a>
-                <a href="reportes.html" class="boton" style="text-decoration:none">Reportes</a>
+                <a href="index.html" style="text-decoration:none">Proyectos</a>
+                <a href="tareas.html"  style="text-decoration:none">Tareas</a>
+                <a href="usuarios.html"  style="text-decoration:none">Usuarios</a>
+                <a href="reportes.html"  style="text-decoration:none">Reportes</a>
             </nav>
             <hr/>
-        </div>
-    </div>
-    </header>
-    
-
-    <button type="button" name="task" id="taskButton">Im the Button</button>
+        </div>    
     <!-- All of the Node.js APIs are available in this renderer process. -->
     list project<br>
     <strong><script>document.write( process.versions.node)</script></strong>,
     and Electron <strong><script>document.write( process.versions.electron )</script></strong>.
 
-    <script>
+    <script type="module" src="./home.js">
       // You can also require other files to run in this process
-      require('./home.js')
     </script>
   </body>
 </html>
