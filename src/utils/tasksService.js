@@ -10,22 +10,22 @@ const headers = {
 
 // Obtener la tarea con un ID específico
 async function getTask(id) {
-  const request = await fetch(`${API_BASE_URL}/tasks/${id}`, {
-    headers,
-    method: 'GET'
-  });
-  const data = await request.json();
-  return data;
+    const request = await fetch(`${API_BASE_URL}/tasks/${id}`, {
+        headers,
+        method: 'GET'
+    });
+    const data = await request.json();
+    return data;
 }
 
 // Buscar todas las tareas de los proyectos (simple ejemplo)
 async function searchAllTasks() {
-  const request = await fetch(`${API_BASE_URL}/tasks/search/?`, {
-    headers,
-    method: 'GET'
-  });
-  const data = await request.json();
-  return data;
+    const request = await fetch(`${API_BASE_URL}/tasks/search/?`, {
+        headers,
+        method: 'GET'
+    });
+    const data = await request.json();
+    return data;
 }
 
 async function searchAllLeads(){
@@ -36,6 +36,8 @@ async function searchAllLeads(){
       const data = await request.json();
       return data;    
 }
+
+
 
 // Aquí vamos a exponer sólo los métodos que necesitamos
 module.exports = {
