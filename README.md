@@ -4,7 +4,7 @@
 
 [Deploy](link       )
 
-### Squad BatiCoders :female-tecnologist: 
+### Squad BatiCoders :female-technologist: 
 
 - [Erika Pacheco](https://github.com/erika-nath) 
 - [Itza Carrillo](https://github.com/ItzaCarrillo)
